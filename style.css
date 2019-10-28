@@ -13,6 +13,7 @@ p {
     color: #343434;
     line-height: 1.7;
     font-weight: 100;
+    margin: 0 20px;
 }
 
 a {
@@ -214,3 +215,24 @@ ul {
 
 /* ABOUT */
 
+.c1 {
+    display:flex;
+}
+
+.c2 {
+    display:flex;
+}
+
+.c_img {
+    margin: 20px 20px;
+    height: 200px;
+    background-color:aqua;
+    width: 600px;   
+}
+
+
+/* 
+.about_container {
+    display: flex;
+    flex-direction: column; 
+}*/

@@ -1,0 +1,216 @@
+* {
+    /* background-color: pink; */
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 20px;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #343434;
+    line-height: 1.7;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header_ul li {
+    padding: 30px;
+    font-variant-caps: all-petite-caps;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    color: #222222;
+    list-style: none;
+}
+
+.head_container {
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+   }
+
+.head_container img {
+    height: 100px;
+}
+
+.logo {
+    padding-bottom: 20px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+
+.footer_ul li {
+
+    padding: 40px 0 0 10px;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    color: #222222;
+    list-style: none;
+}
+
+#footer_p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 50px;
+    color: #222222;
+}
+
+/* HOME */
+
+#A1 {
+    background-color: pink;
+    height: 400px;
+    width: auto;
+}
+
+#A2 {
+    background-color: powderblue;
+    height: 400px;
+    width: auto;
+}
+
+#A3 {
+    background-color: green;
+    height: 400px;
+    width: auto;
+}
+
+#A4 {
+    background-color:black;
+    height: 400px;
+    width: auto;
+}
+
+#A5 {
+    background-color: yellow;
+    height: 400px;
+    width: auto;
+}
+
+#A6 {
+    background-color: blue;
+    height: 400px;
+    width: auto;
+}
+
+#A7 {
+    background-color:blueviolet;
+    height: 400px;
+    width: auto;
+}
+
+#A8 {
+    background-color: aqua;
+    height: 400px;
+    width: auto;
+}
+
+#A9 {
+    background-color: brown;
+    height: 400px;
+    width: auto;
+}
+
+#A10 {
+    background-color: tomato;
+    height: 400px;
+    width: auto;
+}
+
+#A11 {
+    background-color: gold;
+    height: 400px;
+    width: auto;
+}
+
+#A12 {
+    background-color: khaki;
+    height: 400px;
+    width: auto;
+}
+
+#A13 {
+    background-color:lightgrey;
+    height: 400px;
+    width: auto;
+}
+
+#A14 {
+    background-color: fuchsia;
+    height: 400px;
+    width: auto;
+}
+
+/* STUDIO */
+
+.hero {
+    height: 100px;
+    width: auto;
+    background-color: fuchsia;
+    margin: 0 20px;
+}
+
+.section1 p {
+    padding: 20px 20px 0 0;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.box2{
+    display: flex;
+}
+
+.box2_img {
+    margin: 20px 0 0 20px;
+    height: 320px;
+    background-color: gold;
+    width: 33%;    
+}
+
+.box2 ul {
+    display: block;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.box2 li {
+    list-style-type: disc;
+}
+
+.three_containers {
+    display: flex;
+
+}
+
+.img_three {
+    height: 80px;
+    background-color:aqua;
+    width: auto;   
+}
+
+.three_containers div {
+    margin: 20px;
+}
+
+/* ABOUT */
+

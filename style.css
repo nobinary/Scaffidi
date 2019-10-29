@@ -1,6 +1,11 @@
-* {
-    /* background-color: pink; */
-}
+/* FIXLIST:
+ - 1/2 CSS animations
+ - 0/2 event handlers
+ - find + insert images
+ - fix centering of header/footer 
+ list items (desktop + mobile)
+*/
+
 
 h1 {
     font-size: 24px;
@@ -28,7 +33,7 @@ ul {
 }
 
 .header_ul li {
-    padding: 30px;
+    padding: 0 30px 0 0;
     font-variant-caps: all-petite-caps;
     font-family: 'Work Sans', sans-serif;
     font-size: 24px;
@@ -48,13 +53,21 @@ ul {
 
 .logo {
     padding-bottom: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
+  
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%; 
+    }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
 
 .footer_ul li {
 
@@ -75,7 +88,17 @@ ul {
     color: #222222;
 }
 
-/* HOME */
+/* HOME  */
+
+.header_ul li {
+    padding: 20px;
+    margin: 0;
+    align-self: center;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
 #A1 {
     background-color: pink;
@@ -231,8 +254,146 @@ ul {
 }
 
 
-/* 
-.about_container {
-    display: flex;
-    flex-direction: column; 
-}*/
+
+@media (max-width: 420px) {
+
+    /* HOME */
+
+    .header_ul li {
+        padding: 20px;
+        margin: 0;
+        align-self: center;
+    }
+
+    .logo {
+        animation-name: none;
+    }
+    
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    #A1 {
+        background-color: pink;
+        height: 200px;
+        width: 100%;
+    }
+    
+    #A2 {
+        background-color: powderblue;
+        height: 200px;
+        width: 100%;
+    }
+    
+    #A3 {
+        background-color: green;
+        height: 200px;
+        width: 100%;
+    }
+    
+    #A4 {
+        background-color:black;
+        height: 200px;
+        width: 100%;
+    }
+    
+    #A5 {
+        background-color: yellow;
+        height: 400px;
+        width: auto;
+    }
+    
+    #A6 {
+        background-color: blue;
+        height: 400px;
+        width: auto;
+    }
+    
+    #A7 {
+        background-color:blueviolet;
+        height: 400px;
+        width: auto;
+    }
+    
+    #A8 {
+        background-color: aqua;
+        height: 400px;
+        width: auto;
+    }
+    
+    #A9 {
+        background-color: brown;
+        height: 400px;
+        width: auto;
+    }
+    
+    #A10 {
+        background-color: tomato;
+        height: 400px;
+        width: auto;
+    }
+    
+    #A11 {
+        background-color: gold;
+        height: 400px;
+        width: auto;
+    }
+    
+    #A12 {
+        background-color: khaki;
+        height: 400px;
+        width: auto;
+    }
+    
+    #A13 {
+        background-color:lightgrey;
+        height: 400px;
+        width: auto;
+    }
+    
+    #A14 {
+        background-color: fuchsia;
+        height: 400px;
+        width: auto;
+    }
+
+    /* STUDIO */
+
+    .box2 {
+        flex-direction: column;
+    }
+
+    .box2 p {
+        /* font-size: 12px; */
+    }
+
+    .box2_img {
+        margin: auto;
+    }
+
+    .three_containers {
+        flex-direction: column;
+    }
+
+/* ABOUT */
+
+    .c1 {
+        flex-direction: column; 
+        padding: 10px 0;
+    }
+
+    .c2 {
+        flex-direction: column; 
+    }
+
+    .c_img {
+        margin: auto;
+        padding: 20px 0;
+        height: 200px;
+        background-color:aqua;
+        width: 600px;   
+    }
+
+}

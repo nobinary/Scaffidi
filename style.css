@@ -97,92 +97,138 @@ ul {
     align-self: center;
 }
 .wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    width: 100vw;
+    /* border: 10px solid pink; */
   }
+
+.wrapper .flex1 {
+    /* border: purple solid 10px; */
+    /* flex: 1; */
+    /* flex-direction: column; */
+    /* width: calc(100% / 3); */
+    /* height: auto; */
+    /* display: block; */
+
+}  
+
+.wrapper .flex2 {
+    /* border: yellow solid 10px; */
+    /* flex: 1;
+    flex-direction: column; */
+    /* width: calc(100% / 3); */
+    /* height: auto; */
+    /* display: block; */
+}  
+
+.wrapper .flex3 {
+    /* border: lime solid 10px; */
+    /* flex: 1;
+    flex-direction: column; */
+    /* width: calc(100% / 3); */
+    /* height: auto; */
+    /* display: block; */
+}  
+
+/* .main_image img {
+    width: 100%;
+    height: auto;
+} */
 
 #A1 {
     background-color: pink;
-    height: 400px;
-    width: auto;
+    /* border: red solid 1px; */
+    max-width:100%;
+    height: auto;
+    object-fit: contain;
 }
 
 #A2 {
     background-color: powderblue;
-    height: 400px;
-    width: auto;
+    /* border: red solid 1px; */
+    max-width:100%;
+    height: auto;
 }
 
 #A3 {
     background-color: green;
-    height: 400px;
-    width: auto;
+    /* border: red solid 1px; */
+    max-width:100%;
+    height: auto;
 }
 
 #A4 {
     background-color:black;
-    height: 400px;
-    width: auto;
+    max-width:100%;
+    height: auto;
 }
 
 #A5 {
     background-color: yellow;
-    height: 400px;
-    width: auto;
+    max-width:100%;
+    height: auto;
 }
 
 #A6 {
     background-color: blue;
-    height: 400px;
-    width: auto;
+    max-width:100%;
+    height: auto;
+    object-fit: contain;
 }
 
 #A7 {
     background-color:blueviolet;
-    height: 400px;
-    width: auto;
+    max-width:100%;
+    height: auto;
 }
 
 #A8 {
     background-color: aqua;
-    height: 400px;
-    width: auto;
+    max-width:100%;
+    height: auto;
 }
 
 #A9 {
     background-color: brown;
-    height: 400px;
-    width: auto;
+    max-width:100%;
+    height: auto;
 }
 
 #A10 {
     background-color: tomato;
-    height: 400px;
-    width: auto;
+    max-width:100%;
+    height: auto;
 }
 
 #A11 {
     background-color: gold;
-    height: 400px;
-    width: auto;
+    max-width:100%;
+    height: auto;
+    object-fit: contain;
 }
 
 #A12 {
     background-color: khaki;
-    height: 400px;
-    width: auto;
+    max-width:100%;
+    height: auto;
 }
 
 #A13 {
     background-color:lightgrey;
-    height: 400px;
-    width: auto;
+    max-width:100%;
+    height: auto;
 }
 
 #A14 {
     background-color: fuchsia;
-    height: 400px;
-    width: auto;
+    max-width:100%;
+    height: auto;
+}
+
+#A15 {
+    background-color: chartreuse;
+    max-width:100%;
+    height: auto;
 }
 
 /* STUDIO */

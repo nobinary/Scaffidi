@@ -278,7 +278,7 @@ ul {
     margin: 20px 0 0 20px;
     height: 320px;
     background-color: gold;
-    width: 33%;    
+    width: 250px;    
 }
 
 .box2 ul {
@@ -294,13 +294,16 @@ ul {
 
 .three_containers {
     display: flex;
+    flex-direction: row;
 
 }
 
 .img_three {
-    height: 80px;
-    background-color:aqua;
-    width: auto;   
+    height: 120px;
+    margin-left: 20px;
+    padding: 30px 0;
+    /* background-color:aqua; */
+    width: 175px;   
 }
 
 .three_containers div {
@@ -319,9 +322,9 @@ ul {
 
 .c_img {
     margin: 20px 20px;
-    height: 200px;
+    height: 300px;
     background-color:aqua;
-    width: 600px;   
+    width: 230px;   
 }
 
 
@@ -346,7 +349,7 @@ ul {
         width: 100%;
     }
 
-    #A1 {
+    /* #A1 {
         background-color: pink;
         height: 200px;
         width: 100%;
@@ -428,7 +431,7 @@ ul {
         background-color: fuchsia;
         height: 400px;
         width: auto;
-    }
+    } */
 
     /* STUDIO */
 

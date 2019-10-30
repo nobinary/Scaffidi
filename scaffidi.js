@@ -1,12 +1,8 @@
-
+//CLEAN UP!!!
 
 let abNav = document.querySelector("#about_nav");
 let stuNav = document.querySelector("#studio_nav");
 let poNav = document.querySelector("#portfolio_nav");
-
-let allNav = abNav + stuNav + poNav
-
-
 
 abNav.addEventListener("mouseover", function(){
     abNav.style.backgroundColor = "#ca2c92"
@@ -38,7 +34,7 @@ poNav.addEventListener("mouseout", function(){
     poNav.style.fontWeight = "default"
 })
 
-
+// let allNav = abNav + stuNav + poNav
 // let event = function(el) {
 //     el.style.
 // }

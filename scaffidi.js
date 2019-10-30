@@ -1,4 +1,9 @@
-//CLEAN UP!!!
+
+//NAV-BUTTON
+
+
+
+// NAV LI COLOR CHANGE - CLEAN UP!!!
 
 let abNav = document.querySelector("#about_nav");
 let stuNav = document.querySelector("#studio_nav");

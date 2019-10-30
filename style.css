@@ -1,11 +1,4 @@
-/* FIXLIST:
- - 1/2 CSS animations
- - 0/2 event handlers
- - find + insert images
- - fix deployment (studio + about pgs)
- - fix centering of header/footer 
- list items (desktop + mobile)
-*/
+
 
 
 h1 {
@@ -310,18 +303,18 @@ ul {
     width: 230px;   
 }
 
-@media (max-width: 1420px) {
+@media (min-width: 420),(max-width: 1420px) {
     .logo {
         padding: 20px;
         animation-duration: 3s;
         animation-name: slidein;
     }
 
-    .hamburger {
+    .dropdown a {
         display: none;
     }
 
-    .navbar {
+    .dropbtn {
         display: none;
     }
       
@@ -347,6 +340,8 @@ ul {
         display: none;
     }
 
+    /* ///DROPDOWN///  */
+
     /* Navbar container */
     .navbar {
     display: inline-block;
@@ -357,41 +352,26 @@ ul {
     font-family: Arial;
   }
   
-  /* Links inside the navbar */
-  .navbar a {
-    float: left;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  /* The dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
   
   /* Dropdown button */
-  .dropdown{
-    /* font-size: 24px;  */
-    background-image: url("images/SVG/hamburger.svg");
-    height: 50px;
-    border: none;
-    outline: none;
-    color: white;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
+    .dropdown {
+        float: left;
+        overflow: hidden;  
+        /* font-size: 24px;  */
+        background-image: url("images/SVG/hamburger.svg");
+        height: 50px;
+        border: none;
+        outline: none;
+        color: white;
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 0; /*Important for vertical align on mobile phones*/
+   }
 
   .dropbtn {
+      display: inline-flex;
       width: 60px;
   }
   
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: yellow;
-  }
   
   /* Dropdown content (hidden by default) */
   .dropdown-content {
@@ -401,6 +381,8 @@ ul {
     min-width: 60px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    left: auto;
+    right:0;
   }
   
   /* Links inside the dropdown */
@@ -421,23 +403,16 @@ ul {
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
+    float: left;
   }
 
+
+/* ////HEADER */
     .head_container {
         align-items: left;   
         justify-content: left;
         padding: 0 20px;
        }
-/* 
-    .hamburger {
-        display: flex;
-        align-self: flex-end;
-        width: 70px;
-        height: auto;
-        padding-left: 80px;
-        padding-bottom: 30px;
-        padding-top: 10px;
-    } */
 
     .header_ul li {
         padding: 20px;

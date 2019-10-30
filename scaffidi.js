@@ -1,6 +1,4 @@
 
-//NAV-BUTTON
-
 
 
 // NAV LI COLOR CHANGE - CLEAN UP!!!
@@ -38,6 +36,14 @@ poNav.addEventListener("mouseout", function(){
     poNav.style.backgroundColor = "white"
     poNav.style.fontWeight = "default"
 })
+
+
+//PORTFOLIO ALERT
+
+poNav.addEventListener("click", function() {
+    alert("Nothing to see here yet!")
+})
+
 
 // let allNav = abNav + stuNav + poNav
 // let event = function(el) {

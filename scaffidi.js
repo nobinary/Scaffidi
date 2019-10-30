@@ -1,10 +1,44 @@
-///not working!
 
-let navButton = document.querySelectorAll(".navButton")
 
-let changeColor = function() {
-    ocument.querySelectorAll(".navButton").style.color= "red"
-}
+let abNav = document.querySelector("#about_nav");
+let stuNav = document.querySelector("#studio_nav");
+let poNav = document.querySelector("#portfolio_nav");
 
-document.querySelector(".navButton").addEventListener("mouseover", changeColor);
+let allNav = abNav + stuNav + poNav
 
+
+
+abNav.addEventListener("mouseover", function(){
+    abNav.style.backgroundColor = "#ca2c92"
+    abNav.style.fontWeight = "bold"
+})
+
+stuNav .addEventListener("mouseover", function(){
+    stuNav.style.backgroundColor = "#ca2c92"
+    stuNav.style.fontWeight = "bold"
+})
+
+poNav.addEventListener("mouseover", function(){
+    poNav.style.backgroundColor = "#ca2c92"
+    poNav.style.fontWeight = "bold"
+})
+
+abNav.addEventListener("mouseout", function(){
+    abNav.style.backgroundColor = "white"
+    abNav.style.fontWeight = "default"
+})
+
+stuNav .addEventListener("mouseout", function(){
+    stuNav.style.backgroundColor = "white"
+    stuNav.style.fontWeight = "default"
+})
+
+poNav.addEventListener("mouseout", function(){
+    poNav.style.backgroundColor = "white"
+    poNav.style.fontWeight = "default"
+})
+
+
+// let event = function(el) {
+//     el.style.
+// }

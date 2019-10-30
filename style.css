@@ -24,7 +24,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #222222;
+    color: #343434;
 }
 
 ul {
@@ -34,12 +34,21 @@ ul {
 }
 
 .header_ul li {
-    padding: 0 30px 0 0;
     font-variant-caps: all-petite-caps;
     font-family: 'Work Sans', sans-serif;
     font-size: 24px;
-    color: #222222;
     list-style: none;
+    color: #222222;
+    padding: 15px;
+    margin: 0;
+    align-self: center;
+}
+
+#abNav{
+    background-color: none;
+    padding: 40px;
+    font-weight: none;
+    
 }
 
 .head_container {
@@ -91,11 +100,7 @@ ul {
 
 /* HOME  */
 
-.header_ul li {
-    padding: 20px;
-    margin: 0;
-    align-self: center;
-}
+
 .wrapper {
     display: flex;
     width: 100vw;
@@ -234,10 +239,29 @@ ul {
 /* STUDIO */
 
 .hero {
-    height: 100px;
+    height: 200px;
     width: auto;
-    background-color: fuchsia;
     margin: 0 20px;
+    /* transition-property: margin-left, width;
+    transition-duration: 1s;
+    transition-timing-function: linear; */
+}
+
+.hero:hover {
+    animation-duration: 3s;
+    animation-name: slidein2;
+}
+
+@keyframes slidein2 {
+    from {
+        margin-right: 100%;
+        width: 100%; 
+    }
+
+    to {
+        margin-left: 0%;
+        width: 300%;
+    }
 }
 
 .section1 p {

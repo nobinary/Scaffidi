@@ -5,17 +5,17 @@ let stuNav = document.querySelector("#studio_nav");
 let poNav = document.querySelector("#portfolio_nav");
 
 abNav.addEventListener("mouseover", function(){
-    abNav.style.backgroundColor = "#ca2c92"
+    abNav.style.backgroundColor = "yellow"
     abNav.style.fontWeight = "bold"
 })
 
-stuNav .addEventListener("mouseover", function(){
+stuNav.addEventListener("mouseover", function(){
     stuNav.style.backgroundColor = "#ca2c92"
     stuNav.style.fontWeight = "bold"
 })
 
 poNav.addEventListener("mouseover", function(){
-    poNav.style.backgroundColor = "#ca2c92"
+    poNav.style.backgroundColor = "limegreen"
     poNav.style.fontWeight = "bold"
 })
 

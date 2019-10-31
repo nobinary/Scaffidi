@@ -1,10 +1,10 @@
-
-
+/* GENERAL */
 
 h1 {
     font-size: 24px;
     font-family: 'Open Sans Condensed', sans-serif;
-    margin: 20px;
+    margin: 30px 0 0 20px;
+    font-weight: bold;
 }
 
 p {
@@ -26,13 +26,15 @@ ul {
     justify-content: center;
 }
 
+/* ///HEADER/// */
+
 .header_ul li {
     font-variant-caps: all-petite-caps;
     font-family: 'Work Sans', sans-serif;
     font-size: 24px;
     list-style: none;
     color: #222222;
-    padding: 15px;
+    padding: 25px;
     margin: 0;
     align-self: center;
 }
@@ -57,7 +59,7 @@ ul {
 
 .footer_ul li {
 
-    padding: 40px 0 0 10px;
+    padding: 20px 20px;
     text-align: center;
     font-variant-caps: all-petite-caps;
     font-family: 'Work Sans', sans-serif;
@@ -70,7 +72,6 @@ ul {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     text-align: center;
-    margin-left: 50px;
     color: #222222;
 }
 
@@ -80,8 +81,15 @@ ul {
 .wrapper {
     display: flex;
     width: 100vw;
+    align-content: flex-start;
+    margin: 0;
     /* border: 10px solid pink; */
   }
+
+.wrapper img {
+    max-width:100%;
+    height: auto;
+}
 
 .wrapper .flex1 {
     /* border: purple solid 10px; */
@@ -116,101 +124,85 @@ ul {
     height: auto;
 } */
 
+ 
 #A1 {
-    background-color: pink;
-    /* border: red solid 1px; */
     max-width:100%;
     height: auto;
-    object-fit: contain;
 }
 
 #A2 {
-    background-color: powderblue;
-    /* border: red solid 1px; */
     max-width:100%;
     height: auto;
 }
 
 #A3 {
-    background-color: green;
-    /* border: red solid 1px; */
     max-width:100%;
     height: auto;
 }
 
 #A4 {
-    background-color:black;
     max-width:100%;
     height: auto;
 }
 
 #A5 {
-    background-color: yellow;
     max-width:100%;
     height: auto;
 }
 
 #A6 {
-    background-color: blue;
     max-width:100%;
     height: auto;
     object-fit: contain;
 }
 
 #A7 {
-    background-color:blueviolet;
     max-width:100%;
     height: auto;
 }
 
 #A8 {
-    background-color: aqua;
     max-width:100%;
     height: auto;
 }
 
 #A9 {
-    background-color: brown;
     max-width:100%;
     height: auto;
 }
 
 #A10 {
-    background-color: tomato;
     max-width:100%;
     height: auto;
 }
 
 #A11 {
-    background-color: gold;
     max-width:100%;
     height: auto;
     object-fit: contain;
 }
 
 #A12 {
-    background-color: khaki;
     max-width:100%;
     height: auto;
 }
 
 #A13 {
-    background-color:lightgrey;
     max-width:100%;
     height: auto;
 }
 
 #A14 {
-    background-color: fuchsia;
     max-width:100%;
     height: auto;
 }
 
 #A15 {
-    background-color: chartreuse;
     max-width:100%;
     height: auto;
 }
+
+
 
 /* STUDIO */
 
@@ -259,13 +251,11 @@ ul {
 
 .box2 ul {
     display: block;
+    list-style-type: disc;
     font-size: 18px;
     line-height: 1.5;
     font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.box2 li {
-    list-style-type: disc;
+    padding: 30px;
 }
 
 .three_containers {
@@ -278,7 +268,6 @@ ul {
     height: 120px;
     margin-left: 20px;
     padding: 30px 0;
-    /* background-color:aqua; */
     width: 175px;   
 }
 
@@ -300,6 +289,7 @@ ul {
     margin: 20px 20px;
     height: 373px;
     width: 280px;
+    align-items: center;
 }
 
 .c_p {

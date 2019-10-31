@@ -1,6 +1,3 @@
-
-
-
 // NAV LI COLOR CHANGE - CLEAN UP!!!
 
 let abNav = document.querySelector("#about_nav");
@@ -24,17 +21,17 @@ poNav.addEventListener("mouseover", function(){
 
 abNav.addEventListener("mouseout", function(){
     abNav.style.backgroundColor = "white"
-    abNav.style.fontWeight = "default"
+    abNav.style.fontWeight = "normal"
 })
 
 stuNav .addEventListener("mouseout", function(){
     stuNav.style.backgroundColor = "white"
-    stuNav.style.fontWeight = "default"
+    stuNav.style.fontWeight = "normal"
 })
 
 poNav.addEventListener("mouseout", function(){
     poNav.style.backgroundColor = "white"
-    poNav.style.fontWeight = "default"
+    poNav.style.fontWeight = "normal"
 })
 
 

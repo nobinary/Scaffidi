@@ -1,4 +1,4 @@
-*** Tim & MK ***
+** Tim & MK **
 
 **Purpose**
 

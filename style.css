@@ -74,7 +74,7 @@ ul {
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;
     margin: 0;
-    /* text-align: center; */
+    text-align: center;
     color: #222222;
 }
 
@@ -252,8 +252,7 @@ ul {
   /* Dropdown button */
     .dropdown {
         float: left;
-        overflow: hidden;  
-        /* font-size: 24px;  */
+        overflow: hidden;   
         background-image: url("images/SVG/hamburger.svg");
         height: 50px;
         border: none;
@@ -277,8 +276,8 @@ ul {
         min-width: 60px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
-        left: auto;
-        right:0;
+        /* left: auto;
+        right:0; */
     }
     
     /* Links inside the dropdown */

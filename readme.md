@@ -1,4 +1,4 @@
-https://github.com/nobinary/Scaffidi/blob/master/images/Logo.png
+[logo]: https://github.com/nobinary/Scaffidi/blob/master/images/Logo.png
 
 **Purpose**
 

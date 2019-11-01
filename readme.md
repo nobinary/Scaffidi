@@ -5,19 +5,21 @@
 
 **Purpose**
 
-Responsive desktop/mobile website for creative studio with CSS animations. All artwork courtesy of Tim Scaffidi. 
+Responsive desktop/mobile website for creative studio with CSS animations. 
+
+All artwork courtesy of Tim Scaffidi. (http://timothyscaffidi.com/, github.com/timscaffidi)
 
 **Tools/Languages**
 
-- VisualStudio, Illustrator, Photoshop
+- VisualStudio | Adobe Illustrator | Adobe Photoshop
 
-- HTML/CSS/JS
+- HTML | CSS | JS
 
 **Highlights**
 
 Responsive flexbox image grid. 
 
-/* HOME  */
+/* HOME  */ (source: index.html)
 ```
 .wrapper {
     display: flex;

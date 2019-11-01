@@ -1,4 +1,8 @@
-[logo]: https://github.com/nobinary/Scaffidi/blob/master/images/Logo.png
+
+Inline-style: 
+![alt text](https://github.com/nobinary/Scaffidi/blob/master/images/Logo.png "Logo Title Text 1")
+
+[logo]: https://github.com/nobinary/Scaffidi/blob/master/images/Logo.png "logo"
 
 **Purpose**
 

@@ -46,3 +46,8 @@ Responsive flexbox image grid.
     transform: scale(1.2)
 }
 ```
+
+
+![alt text](https://github.com/nobinary/Scaffidi/blob/master/media/tim_mk_screenrecording.gif"Logo Title Text 1")
+
+[walkthrough]: https://github.com/nobinary/Scaffidi/blob/master/media/tim_mk_screenrecording.gif"walkthrough"

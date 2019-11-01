@@ -1,4 +1,4 @@
-// NAV LI COLOR CHANGE - CLEAN UP!!!
+// NAV LI COLOR CHANGE///
 
 let abNav = document.querySelector("#about_nav");
 let stuNav = document.querySelector("#studio_nav");
@@ -42,7 +42,3 @@ poNav.addEventListener("click", function() {
 })
 
 
-// let allNav = abNav + stuNav + poNav
-// let event = function(el) {
-//     el.style.
-// }

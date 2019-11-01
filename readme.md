@@ -1,4 +1,4 @@
-** Tim & MK **
+https://github.com/nobinary/Scaffidi/blob/master/images/Logo.png
 
 **Purpose**
 

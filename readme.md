@@ -9,7 +9,7 @@ Responsive desktop/mobile website for creative studio with CSS animations. All a
 
 **Tools/Languages**
 
-- VisualStudio, Illustrator, Photoshop.
+- VisualStudio, Illustrator, Photoshop
 
 - HTML/CSS/JS
 
@@ -18,7 +18,7 @@ Responsive desktop/mobile website for creative studio with CSS animations. All a
 Responsive flexbox image grid. 
 
 /* HOME  */
-
+```
 .wrapper {
     display: flex;
     width: 100vw;
@@ -40,3 +40,4 @@ Responsive flexbox image grid.
 .main_image:hover {
     transform: scale(1.2)
 }
+```

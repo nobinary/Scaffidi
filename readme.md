@@ -7,7 +7,10 @@
 
 Responsive desktop/mobile website for creative studio with CSS animations. 
 
-All artwork courtesy of Tim Scaffidi. (http://timothyscaffidi.com/, github.com/timscaffidi)
+All artwork courtesy of Tim Scaffidi. 
+
+http://timothyscaffidi.com/
+http://github.com/timscaffidi
 
 **Tools/Languages**
 

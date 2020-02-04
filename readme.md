@@ -42,9 +42,6 @@ Responsive flexbox image grid.
     transition: all 0.8s ease;
 }
 
-.main_image:hover {
-    transform: scale(1.2)
-}
 ```
 
 

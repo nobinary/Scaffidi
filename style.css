@@ -1,3 +1,6 @@
+
+
+
 /* GENERAL */
 
 h1 {
@@ -33,48 +36,48 @@ ul {
 .header_ul li {
     font-variant-caps: all-petite-caps;
     font-family: 'Work Sans', sans-serif;
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: 600;
     list-style: none;
     color: #222222;
-    padding: 25px;
+    padding: 50px 25px;
     margin: 0;
     align-self: center;
 }
 
-#abNav{
-    background-color: none;
-    padding: 40px;
-    font-weight: none;
-    
-}
-
 .head_container {
-    display: flex;
-    align-items: center;   
-    justify-content: center;
+    width: 100%;
    }
 
-.logo {
-    height: 80px;
+.logo  {
+    width: 40%;
+    margin: 0 30%;
+    /* max-width: 1000px; */
+    padding: 20px 0 50px 0;
 }
 
 /* FOOTER */
+
+footer {
+    padding: 30px;
+}
 
 .footer_ul li {
     padding: 40px 10px 30px 10px ;
     text-align: center;
     font-variant-caps: all-petite-caps;
     font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #222222;
     list-style: none;
 }
 
-#footer_p p{
+.footer_p {
     font-family: 'Work Sans', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     margin: 0;
     text-align: center;
+    padding-bottom: 30px;
     color: #222222;
 }
 
@@ -105,98 +108,55 @@ ul {
 
 /* ART */
 
-.hero {
-    height: 200px;
-    width: auto;
-    margin: 0 20px;
-}
-
-.hero:hover {
-    animation-duration: 3s;
-    animation-name: slidein2;
-}
-
-.section1_h1 {
-    padding: 20px;
-}
-
-.section1 p {
-    padding: 0 20px 20px 0;
-    font-size: 18px;
-}
-
-.box2{
+.project {
     display: flex;
-    margin-left: 20px;
+    padding: 40px 20px;
 }
 
-.box2_img {
-    margin: 20px 0 20px 20px;
-    height: 320px;
-    width: 250px;    
+.project > img {
+    max-width: 60%;
+    min-width: 40%; 
+    max-height: 350px;
 }
 
-.box2 ul {
-    display: block;
-    list-style-type: disc;
-    font-size: 18px;
-    line-height: 1.5;
-    font-family: 'Open Sans Condensed', sans-serif;
-    padding: 30px 50px;
-}
-
-.three_containers {
+.chronoscape {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 
-.img_three {
-    height: 200px;
-    margin-left: 20px;
-    padding: 30px 0;
-    width: 250px;   
-}
-
-.three_containers div {
-    margin: 20px;
+.project_txt {
+    width: 60%;
+    margin: 0 30px;
+    padding: 0;
 }
 
 /* ABOUT */
 
 .c2 {
     display:flex;
-    width: 80%;
-    border: red solid 2px;
-    margin: 0 10%;
+    width: 90%;
+    margin: 5%;
+}
+
+.mission {
+margin: 5%;
 }
 
 .c_img {
-    margin: 20px 20px;
     height: 373px;
     width: auto;
-    align-items: center;
-    border: purple solid 2px;
 }
 
 .c_p > p {
     width: 90%;
     text-align: left;
     padding: 20px 0 20px;
-    border: green solid 2px;
 }
 
-.c_p > h1 {
-    padding: 0 0 0 20px;
-}
-
-@media (min-width: 420px) , (max-width: 1024) {
+@media (min-width: 420px) {
    
     .navbar {
         display: none;
-    }
-
-    .logo {
-        padding: 20px 0 50px 0;
     }
 
     .dropdown a {
@@ -221,28 +181,25 @@ ul {
     /* HEADER */
 
     .head_container {
+    display: flex;
     align-items: left;   
     justify-content: left;
     padding: 0 20px;
-    border: purple solid 2px;
     }
 
     .logo {
-    padding: 10px;
-    width: 150px;
-    height: auto;
+    width: 200px;
+    margin: 0;
+    padding: 20px;
     }
     
 /* HAMBURGER_DROPDOWN */
 
     /* Navbar container */
     .navbar {
-        /* display: inline-block; */
-        /* overflow: hidden; */
         height: 50px;
         width: 100%;
-        padding: 0 0 20px 90px;
-        border: 1px red solid;
+        padding: 0 0 20px 20px;
         font-family: Arial;
     }
   
@@ -257,13 +214,11 @@ ul {
         color: white;
         font-family: inherit; 
         margin-top: 10%; 
-        border: 1px red solid;
     }
 
     .dropbtn {
         display: inline-flex;
         width: 60px;
-        border: 1px red solid;
     }
   
     
@@ -296,11 +251,7 @@ ul {
   /* FRONT PAGE */
 
   .wrapper {
-    display: row;
-    width: 100vw;
-    align-content: flex-start;
-    margin: 0;
-    border: purple solid 2px;
+    flex-direction: column;
 }    
 
     /* STUDIO */
@@ -347,11 +298,14 @@ ul {
     /* FOOTER */
 
     .footer_ul li {
-        padding: 80px 10px 30px 10px;
+        padding: 30px 10px;
+        font-size: 25px;
     }
 
-    #footer_p p{
+    .footer_p {
         text-align: center;
+        padding: 20px;
+        font-size: 15px;
     }
 
 
